@@ -46,7 +46,7 @@ resource "aws_instance" "web" {
               sudo systemctl enable apache2
               cd /var/www/html
               sudo rm -rf *
-              sudo git clone 
+              sudo git clone https://github.com/victorojetokun24/HNG_INTERNSHIP_APACHE
               sudo systemctl restart apache2
               EOF
 
